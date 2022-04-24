@@ -27,35 +27,35 @@ export default function App() {
         source={require("./assets/profile_image.png")}
         fadeDuration={1000}
       ></Image>
-      {/* email */}
+
       <View
         style={{
           backgroundColor: "#fbd66f",
-          width: 310,
+          width: 330,
           height: 40,
           marginTop: 10,
           borderRadius: 10,
+          flexDirection: "row",
 
           justifyContent: "center",
           alignItems: "center",
         }}
       >
+        <MaterialIcons
+          name="email"
+          size={25}
+          color="black"
+          style={{ marginRight: 5 }}
+        />
         <Text
           style={{
             fontSize: 15,
             fontFamily: "sans-serif-medium",
-            display: "flex",
             justifyContent: "center",
             alignItems: "center",
           }}
         >
-          <MaterialIcons
-            name="email"
-            size={25}
-            color="black"
-            style={{ marginRight: 5 }}
-          />
-          Email: abdelrahmanhassan081@gmail.com
+          abdelrahmanhassan081@gmail.com
         </Text>
       </View>
       {/* linkedin */}
@@ -67,30 +67,30 @@ export default function App() {
         <View
           style={{
             backgroundColor: "#fbd66f",
-            width: 310,
+            width: 330,
             height: 40,
             marginTop: 10,
             borderRadius: 10,
+            flexDirection: "row",
 
             justifyContent: "center",
             alignItems: "center",
           }}
         >
+          <FontAwesome
+            name="linkedin-square"
+            size={24}
+            color="black"
+            style={{ marginRight: 5 }}
+          />
           <Text
             style={{
               fontSize: 15,
               fontFamily: "sans-serif-medium",
-              display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <FontAwesome
-              name="linkedin-square"
-              size={24}
-              color="black"
-              style={{ marginRight: 5 }}
-            />
             linkedin.com/in/abdelrahman-hassan278
           </Text>
         </View>
@@ -102,29 +102,29 @@ export default function App() {
         <View
           style={{
             backgroundColor: "#fbd66f",
-            width: 310,
+            width: 330,
             height: 40,
             marginTop: 10,
             borderRadius: 10,
+            flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
           }}
         >
+          <FontAwesome
+            name="github"
+            size={24}
+            color="black"
+            style={{ marginRight: 5 }}
+          />
           <Text
             style={{
               fontSize: 15,
               fontFamily: "sans-serif-medium",
-              display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <FontAwesome
-              name="github"
-              size={24}
-              color="black"
-              style={{ marginRight: 5 }}
-            />
             github.com/Abdelrahmanhassan1
           </Text>
         </View>
